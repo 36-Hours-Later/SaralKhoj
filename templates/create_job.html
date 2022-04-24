@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/stylec.css" />
+    <title>SaralKhoj | Create Job</title>
+  </head>
+  <body>
+    <center>
+      {% with messages = get_flashed_messages() %} {% if messages %}
+      <span
+        style="
+          color: rgb(255, 255, 255);
+          background-color: rgb(209, 65, 65);
+          padding: 10px 10px;
+          font-size: smaller;
+          font-family: monospace;
+          border-radius: 8px;
+          position: absolute;
+          top: 1%;
+          right: 1%;
+        "
+      >
+        {{ messages[0] }} </span
+      ><br />
+      {% endif %} {% endwith %}
+      <br />
+      <form action="/create" method="POST" autocomplete="off">
+        <!-- <label for="desc">Job Description: </label> -->
+        <textarea
+          id="desc"
+          name="desc"
+          required="required"
+          placeholder="Enter Job Description"
+        ></textarea
+        ><br />
+        <!-- <input type="text" id="desc" name="desc" required="required" autofocus><br> -->
+
+        <div class="startDate">
+          <label for="date">Start Date & Time: </label>
+          <input
+            type="datetime-local"
+            id="date"
+            name="date"
+            value="2022-02-02T02:02"
+            required="required"
+            autofocus
+          /><br />
+        </div>
+
+        <div class="location">
+          <label for="loc">Location: </label>
+          <input
+            type="text"
+            id="loc"
+            name="loc"
+            required="required"
+            autofocus
+          /><br />
+        </div>
+
+        <div class="district">
+          <label for="dist">District: </label>
+          <input
+            type="text"
+            id="dist"
+            name="dist"
+            required="required"
+            autofocus
+          /><br />
+        </div>
+
+        <div class="contact">
+          <label for="contact">Contact: </label>
+          <input
+            type="text"
+            id="contact"
+            name="contact"
+            required="required"
+            autofocus
+          /><br />
+        </div>
+        <div class="Crt">
+          <input
+            type="submit"
+            value="Create"
+            id="cre"
+            style="
+              border-radius: 9px;
+              background-color: rgb(64, 150, 232);
+              padding: 2vh;
+            "
+          />
+        </div>
+      </form>
+    </center>
+  </body>
+</html>

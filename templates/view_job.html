@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SaralKhoj | View</title>
+  </head>
+  <body>
+    <div style="border: 2px #000000 solid;padding:2px 2px ;">
+      <div style="border: 1px black solid;margin-right:1px;;height: 40vh;background-color: aliceblue;">
+        <!-- <div style="border: 2px #3f403d solid;margin-top: 1px;margin-right: 1px;height:40vh"> -->
+        <p>{{ data.job_desc }}</p></div>
+      <div style="display:flex"><p><div style="border: 1px black solid;margin-top: 1px;margin-right: 1px; width: 50%;height: 4vh;background-color: aliceblue;">{{ data.job_date.split("T")[0] }} </div><div style="border: 1px black solid;margin-top: 1px;margin-right: 1px; margin-left: 2.6px; width: 45%;height: 4vh;background-color: aliceblue;">{{ data.job_date.split("T")[1] }}</div></p></div>
+      <div style="display:flex;margin-left: 50px;margin-top: 1px;"><p><div style="border: 1px black solid;width: 30%;height: 4vh;background-color: aliceblue;">{{ data.location }} </div>||<div style="border: 1px black solid;width: 30%;height: 4vh;background-color: aliceblue;"> {{ data.district }}</div> ||<div style="border: 1px black solid;width: 30%;height: 4vh;background-color: aliceblue;"> {{ data.contact }}</div></p></div>
+    </div>
+    <form action="/view" method="POST" autocomplete="off">
+      <label for="name">Name: </label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        required="required"
+        autofocus
+      />&nbsp;
+
+      <label for="loca">Locality</label>
+      <input
+        type="text"
+        id="loca"
+        name="loca"
+        required="required"
+        autofocus
+      />&nbsp;
+
+      <label for="contact">Contact: </label>
+      <input
+        type=""
+        id="contact"
+        name="contact"
+        required="required"
+        autofocus
+      />&nbsp;
+
+      <input type="submit" value="Confirm" style="border-radius: 9px" />
+    </form>
+    <br /><br />
+  </body>
+</html>
