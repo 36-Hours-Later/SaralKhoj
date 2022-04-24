@@ -15,7 +15,7 @@ Employers can create posts for the job.
 Our vision is to improve livelihood of the economically weaker section of society by connecting them with employers In unorganized sector.
   
 ## Demo Video Link:
-  <a href="https://youtu.be/dQw4w9WgXcQ">https://youtu.be/dQw4w9WgXcQ</a>
+  <a href="https://drive.google.com/file/d/1zE4nWLSUBdQ2KKKZUgJTW_xpZVr4z5c9/view?usp=sharing">https://drive.google.com/file/d/1zE4nWLSUBdQ2KKKZUgJTW_xpZVr4z5c9/view?usp=sharing</a>
   
 ## Presentation Link:
   <a href="https://cutt.ly/H365PPT"> https://docs.google.com/presentation/d/1vgVAQDo82XAqG0a9LdHc4g79Wqn0dith/edit?usp=sharing&ouid=106575166206025893613&rtpof=true&sd=true </a>
@@ -24,19 +24,20 @@ Our vision is to improve livelihood of the economically weaker section of societ
 ## Table of Contents:
 
 ## Technology Stack:
-  1) Flutter
-  2) Google Collab
-  3) JavaFX
-  4) Machine Learning
+  1) HTML
+  2) CSS
+  3) Flutter (Python)
+  4) Bootstrap
   
 
 ## Contributors:
 
-Team Name: NP Devs
+Team Name: 36 Hours Later
 
-* [Nishchal Siddharth Pandey](https://github.com/nisiddharth)
-* [Ashutosh Chitranshi](https://github.com/ashu12chi)
-* [Anushka Srivastava](https://github.com/Anushkaa-Srivastava)
+* [Prakhar Agarwal]
+* [Ayushi Sahu]
+* [Shruti Vishwakama]
+* [Nishchay Chaurasia]
 
 
 ### Made at:
