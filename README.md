@@ -26,7 +26,7 @@ Our vision is to improve livelihood of the economically weaker section of societ
 ## Technology Stack:
   1) HTML
   2) CSS
-  3) Flutter (Python)
+  3) Flask (Python)
   4) Bootstrap
   
 
